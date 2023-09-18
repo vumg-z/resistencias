@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonBrown" type="id" />
+    <item name="buttonBlack" type="id" />
+    <item name="buttonRed" type="id" />
+    <item name="buttonOrange" type="id" />
+    <item name="buttonYellow" type="id" />
+    <item name="buttonGreen" type="id" />
+    <item name="buttonBlue" type="id" />
+    <item name="buttonViolet" type="id" />
+    <item name="buttonGray" type="id" />
+    <item name="buttonWhite" type="id" />
+    <item name="buttonListo" type="id" />
+</resources>

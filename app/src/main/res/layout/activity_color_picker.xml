@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Button for Black -->
+    <Button
+        android:id="@+id/buttonBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negro"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Brown -->
+    <Button
+        android:id="@+id/buttonBrown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marrón"
+        android:backgroundTint="#8B4513"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Red -->
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rojo"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonBrown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Orange -->
+    <Button
+        android:id="@+id/buttonOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naranja"
+        android:backgroundTint="#FFA500"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonRed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Yellow -->
+    <Button
+        android:id="@+id/buttonYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amarillo"
+        android:backgroundTint="#FFFF00"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/buttonOrange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Green -->
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+        android:backgroundTint="#008000"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonYellow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Blue -->
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azul"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonGreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Violet -->
+    <Button
+        android:id="@+id/buttonViolet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Violeta"
+        android:backgroundTint="#800080"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonBlue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for Gray -->
+    <Button
+        android:id="@+id/buttonGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gris"
+        android:backgroundTint="#808080"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/buttonViolet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Button for White -->
+    <Button
+        android:id="@+id/buttonWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blanco"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/buttonGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
